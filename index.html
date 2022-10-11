@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hw22</title>
+</head>
+<body>
+<div class="form-block">
+    <form id="meetingForm">
+    <fieldset class="meeting__form">
+        <legend>Create meeting</legend>
+        <label>
+            Meeting title: <input type="text" id="meetingFormTitle" value="Daily meeting">
+        </label>
+        <label>
+            Meeting room:
+            <select id="meetingFormRoom">
+
+            </select>
+        </label>
+        <label>
+            Meeting day:
+            <select id="meetingFormDay">
+
+            </select>
+        </label>
+        <label>
+            Meeting hour:
+            <select id="meetingFormHour">
+
+            </select>
+        </label>
+        <label>
+            Meeting participants:
+            <select multiple id="meetingFormParticipants" >
+
+            </select>
+        </label>
+        <button>Create meeting</button>
+    </fieldset>
+</form>
+    <span class="form-block__prompt" id="promptBlock"></span>
+</div>
+<div id="roomsTables" class="rooms__tables"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
